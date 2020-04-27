@@ -6,6 +6,5 @@ bloopExportJarClassifiers in Global := Some(Set("sources"))
 
 lazy val scalaProject = (project in file("main"))
   .settings(
-    name := "scalaProject",
-    libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.5" % Test,
+    name := "scalaProject"
   )
